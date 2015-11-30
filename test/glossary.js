@@ -7,8 +7,9 @@ var glossary = require('../').glossary;
 var CONTENT = fs.readFileSync(path.join(__dirname, './fixtures/GLOSSARY.md'), 'utf8');
 var LEXED = glossary(CONTENT);
 
-describe('Glossary parsing', function () {
+describe.only('Glossary parsing', function () {
     it('should only get heading + paragraph pairs', function() {
+        console.log(LEXED);
         assert.equal(LEXED.length, 5);
     });
 
@@ -19,7 +20,8 @@ describe('Glossary parsing', function () {
     });
 
     it('should correctly convert it to text', function() {
-    	var text = glossary.toText(LEXED);
-    	assertObjectsEqual(glossary(text), LEXED);
+        var text = glossary.toText(LEXED);
+        console.log(text);
+        assertObjectsEqual(glossary(text), LEXED);
     });
 });
