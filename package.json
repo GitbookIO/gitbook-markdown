@@ -6,8 +6,8 @@
     "main": "lib/index.js",
     "dependencies": {
         "lodash": "^3.2.0",
-        "kramed": "0.5.3",
-        "kramed-text-renderer": "0.2.1"
+        "markdown-it": "5.0.2",
+        "markdown-it-footnote": "2.0.0"
     },
     "devDependencies": {
         "mocha": "2.3.3"
