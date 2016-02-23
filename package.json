@@ -8,7 +8,11 @@
         "lodash": "^3.2.0",
         "kramed": "0.5.5",
         "kramed-text-renderer": "0.2.1",
-        "gitbook-html": "1.0.2"
+        "gitbook-html": "1.0.2",
+        "markdown-it": "6.0.0",
+        "markdown-it-footnote": "2.0.0",
+        "markdown-it-lazy-headers": "0.1.3",
+        "markdown-it-attrs": "0.1.8"
     },
     "devDependencies": {
         "mocha": "^2.3.3"
