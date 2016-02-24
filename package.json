@@ -7,10 +7,10 @@
     "dependencies": {
         "lodash": "^3.2.0",
         "gitbook-html": "1.0.2",
-        "markdown-it": "6.0.0",
+        "markdown-it": "SamyPesse/markdown-it#4e1007edae5687e85a7fdcfa397a3b34fd8cce3b",
         "markdown-it-footnote": "2.0.0",
         "markdown-it-lazy-headers": "0.1.3",
-        "markdown-it-attrs": "SamyPesse/markdown-it#4e1007edae5687e85a7fdcfa397a3b34fd8cce3b"
+        "markdown-it-attrs": "6.0.0"
     },
     "devDependencies": {
         "mocha": "^2.3.3"
