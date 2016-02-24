@@ -10,7 +10,7 @@
         "markdown-it": "SamyPesse/markdown-it#4e1007edae5687e85a7fdcfa397a3b34fd8cce3b",
         "markdown-it-footnote": "2.0.0",
         "markdown-it-lazy-headers": "0.1.3",
-        "markdown-it-attrs": "6.0.0"
+        "markdown-it-attrs": "0.1.8"
     },
     "devDependencies": {
         "mocha": "^2.3.3"
