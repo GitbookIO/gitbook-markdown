@@ -1,14 +1,16 @@
 {
     "name": "gitbook-markdown",
-    "version": "1.0.3",
+    "version": "1.1.1",
     "homepage": "https://www.gitbook.com",
     "description": "Parse markdown content for gitbook",
     "main": "lib/index.js",
     "dependencies": {
         "lodash": "^3.2.0",
-        "kramed": "0.5.5",
-        "kramed-text-renderer": "0.2.1",
-        "gitbook-html": "1.0.2"
+        "gitbook-html": "1.0.2",
+        "markdown-it": "SamyPesse/markdown-it#4e1007edae5687e85a7fdcfa397a3b34fd8cce3b",
+        "markdown-it-footnote": "2.0.0",
+        "markdown-it-lazy-headers": "0.1.3",
+        "markdown-it-attrs": "0.1.8"
     },
     "devDependencies": {
         "mocha": "^2.3.3"
